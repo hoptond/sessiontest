@@ -20,6 +20,7 @@ function loginFailMessage() : string {
         session_destroy();
         return 'Wrong password. Please try again.';
     }
+    return '';
 }
 
 
